@@ -35,6 +35,10 @@ window.onload = function() {
   var randomMovie = chooseAQuote(movie);
 }
 
+document.getElementById('background-image').style.backgroundImage = 'url("image/' + randomImage + '")';
+
+document.getElementById('quote').innerHTML = randomeQuote;
+
 
 
 
