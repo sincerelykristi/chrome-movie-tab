@@ -24,9 +24,13 @@
   "Eternal Sunshine (2004)",
   ];
 
+var chooseAQuote = function(q) {
+  return q[Math.floor(Math.random() * q.length)];
+}
 
-
-
+window.onload = function() {
+  var getImage = chooseAQuote(images);
+}
 
 
 
