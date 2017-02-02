@@ -29,7 +29,10 @@ var chooseAQuote = function(q) {
 }
 
 window.onload = function() {
-  var getImage = chooseAQuote(images);
+  var randomImage = chooseAQuote(images);
+  var randomQuote = chooseAQuote(quotes);
+  var randomCharacter = chooseAQuote(character);
+  var randomMovie = chooseAQuote(movie);
 }
 
 
