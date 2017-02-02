@@ -33,11 +33,19 @@ window.onload = function() {
   var randomQuote = chooseAQuote(quotes);
   var randomCharacter = chooseAQuote(character);
   var randomMovie = chooseAQuote(movie);
-}
+
 
 document.getElementById('background-image').style.backgroundImage = 'url("image/' + randomImage + '")';
 
 document.getElementById('quote').innerHTML = randomeQuote;
+
+document.getElementById('author').innerHTML = randomCharacter;
+
+document.getElementById('quote').className = 'move';
+
+document.getElementById('author').className = 'move';
+
+};
 
 
 
